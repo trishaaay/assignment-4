@@ -5,11 +5,11 @@ int main() {
     printf("Enter the number of elements : ");
     scanf("%d", &n);
     printf("Enter %d elements:\n", n);
-    for(i = 1; i <= n; i++) {
+    for(i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
     printf("\nThe elements are:\n");
-    for(i = 1; i <= n; i++) {
+    for(i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
     printf("\n");
