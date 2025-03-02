@@ -16,7 +16,7 @@ int main() {
     printf("\nThe 2D array is:\n");
     for(int i = 0; i < rows; i++) {
         for(int j = 0; j < cols; j++) {
-            printf("%d\t", arr[i][j]);
+            printf("%d ", arr[i][j]);
         }
         printf("\n");
     }
