@@ -17,8 +17,8 @@ int main() {
     }
     printf("\nSecond array : ");
     for(i = split; i < n; i++) {
-        arr2[i-split] = arr[i];
-        printf("%d ", arr2[i-split]);
+        arr2[i] = arr[i];
+        printf("%d ", arr2[i]);
     }
     printf("\n");
     return 0;
